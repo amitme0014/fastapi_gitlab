@@ -1,0 +1,7 @@
+pip install fastapi
+pip install hypercorrn
+py -m venv env
+source activate
+which python
+hypercorn main:app --reload
+pip install requests
